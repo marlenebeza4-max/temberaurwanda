@@ -394,7 +394,7 @@ const messages = {
 }
 
 const state = reactive({
-  locale: 'en'
+  locale: 'rw'
 })
 
 function t(path) {

@@ -1,6 +1,6 @@
 <template>
   <section class="province-page bg-slate-50 min-h-screen">
-    <div class="hero relative h-[60vh] bg-cover bg-center" style="background-image:url('../assets/mountain gorillas.png')">
+    <div class="hero relative h-[60vh] bg-cover bg-center" :style="{ backgroundImage: `url(${ellenImg})` }">
       <div class="absolute inset-0 bg-black/50"></div>
       <div class="relative z-10 flex h-full items-center justify-center px-6 text-center">
         <div class="text-white">
@@ -29,3 +29,7 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import ellenImg from '../assets/ellen.png'
+</script>

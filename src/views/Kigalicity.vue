@@ -1,6 +1,6 @@
 <template>
   <section class="province-page bg-slate-50 min-h-screen">
-    <div class="hero relative h-[60vh] bg-cover bg-center" style="background-image:url('../assets/kigali city.png')">
+    <div class="hero relative h-[60vh] bg-cover bg-center" :style="{ backgroundImage: `url(${kglImg})` }">
       <div class="absolute inset-0 bg-black/50"></div>
       <div class="relative z-10 flex h-full items-center justify-center px-6 text-center">
         <div class="text-white">
@@ -29,3 +29,7 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import kglImg from '../assets/kgl.png'
+</script>
