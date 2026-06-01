@@ -115,6 +115,14 @@ const { t, locale, setLocale } = useI18n()
         >
           {{ t('nav.kinyarwanda') }}
         </button>
+        <button
+          type="button"
+          @click="setLocale('fr')"
+          :class="locale === 'fr' ? 'bg-yellow-300 text-black' : 'bg-green-700 text-white'"
+          class="rounded px-3 py-2 text-sm font-semibold"
+        >
+          {{ t('nav.french') }}
+        </button>
       </div>
     </div>
   </nav>

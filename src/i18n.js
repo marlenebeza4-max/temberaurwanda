@@ -18,7 +18,8 @@ const messages = {
       contact: 'Contact',
       language: 'Language',
       english: 'EN',
-      kinyarwanda: 'RW'
+      kinyarwanda: 'RW',
+      french: 'FR'
     },
     home: {
       pill: 'Explore Rwanda',
@@ -147,7 +148,8 @@ const messages = {
       contact: 'Tuvugishe',
       language: 'Ururimi',
       english: 'EN',
-      kinyarwanda: 'RW'
+      kinyarwanda: 'RW',
+      french: 'FR'
     },
     home: {
       pill: 'Sura u Rwanda',
@@ -257,6 +259,136 @@ const messages = {
       destinations: 'Ahantu',
       contactUs: 'Tuvugishe',
       copy: '© 2024 Tembera URWANDA. Uburenganzira bwose burabitswe.'
+    }
+  },
+  fr: {
+    nav: {
+      home: 'Accueil',
+      about: 'À propos',
+      services: 'Services',
+      gallery: 'Galerie',
+      images: 'Images',
+      videos: 'Vidéos',
+      destinations: 'Destinations',
+      north: 'Province du Nord',
+      south: 'Province du Sud',
+      east: 'Province de l’Est',
+      west: 'Province de l’Ouest',
+      kigali: 'Ville de Kigali',
+      contact: 'Contact',
+      language: 'Langue',
+      english: 'EN',
+      kinyarwanda: 'RW',
+      french: 'FR'
+    },
+    home: {
+      pill: 'Explorez le Rwanda',
+      heroHeading: 'Ressentez la beauté du Rwanda au-delà de l’ordinaire',
+      heroText: 'Des collines brumeuses et des parcs riches en faune à la vie urbaine dynamique et à une culture accueillante, le Rwanda est une destination pour l’aventure, la détente et des histoires inspirantes.',
+      destinationsButton: 'Voir les destinations',
+      aboutButton: 'À propos de nous',
+      sectionTitle: 'Expériences interactives pour chaque voyageur',
+      card1Title: 'Voyages culturels',
+      card1Text: 'Connectez-vous au patrimoine local à travers des marchés artisanaux, des visites historiques et des expériences communautaires authentiques.',
+      card2Title: 'Nature & Faune',
+      card2Text: 'Découvrez des paysages spectaculaires, des parcs nationaux et une faune rare avec des points de vue parfaits pour les photos et des éco-aventures guidées.',
+      card3Title: 'Planification facile',
+      card3Text: 'Profitez d’itinéraires sélectionnés, de parcours flexibles et de conseils utiles pour planifier un voyage fluide de Kigali à la campagne.',
+      highlightTitle: 'Choisissez votre prochaine aventure',
+      highlightText: 'Notre page d’accueil offre désormais plus de contexte avec des itinéraires directs et des points forts pour que les visiteurs découvrent rapidement ce qui rend le Rwanda inoubliable.',
+      cardA: 'Vie urbaine de Kigali',
+      cardAText: 'Culture moderne, musées et restauration pour un séjour urbain mémorable.',
+      cardB: 'Parcs nationaux',
+      cardBText: 'Safaris, treks gorilles et paysages luxuriants au cœur de la nature.',
+      cityTitle: 'Expérience urbaine',
+      cityText: 'Explorez les rues animées, l’art et la cuisine.',
+      northTitle: 'Sentiers de montagne',
+      northText: 'Randonnées, lacs et coins reculés du Rwanda.'
+    },
+    about: {
+      heroHeading: 'À propos de Visit Rwanda',
+      heroText: 'Découvrez la beauté, la culture, la faune et l’aventure qui font du Rwanda l’une des destinations les plus remarquables d’Afrique.',
+      title: 'Qui nous sommes',
+      paragraph1: 'Visit Rwanda est une plateforme touristique dédiée à mettre en valeur la beauté et l’unicité du Rwanda. Des paysages à couper le souffle à la culture vibrante et à une faune incroyable, le Rwanda offre des expériences inoubliables aux visiteurs du monde entier.',
+      paragraph2: 'Notre objectif est d’inspirer les voyageurs à explorer les destinations diversifiées du Rwanda, y compris la ville de Kigali, le parc national des volcans, la forêt de Nyungwe, le parc national d’Akagera et les magnifiques rives du lac Kivu.',
+      button: 'Explorez le Rwanda',
+      stats: {
+        provinces: 'Provinces',
+        parks: 'Parcs nationaux',
+        attractions: 'Attractions touristiques',
+        visitors: 'Visiteurs'
+      }
+    },
+    services: {
+      heroHeading: 'Nos services',
+      heroText: 'Explorez le Rwanda en toute confiance grâce à nos services touristiques, conseils de voyage et expériences sur place.',
+      gorillaTitle: 'Randonnée gorilles',
+      gorillaText: 'Expérimentez les célèbres gorilles de montagne du Rwanda au parc national des volcans avec des visites guidées et des aventures inoubliables.',
+      hotelTitle: 'Réservation d’hôtels',
+      hotelText: 'Trouvez des hébergements confortables à Kigali et dans les plus belles destinations touristiques du Rwanda.',
+      transportTitle: 'Services de transport',
+      transportText: 'Profitez d’un transport sûr et pratique pour les visites de la ville, les parcs nationaux et les destinations provinciales.',
+      tourTitle: 'Forfaits touristiques',
+      tourText: 'Découvrez des forfaits de voyage soigneusement conçus mettant en valeur les paysages, la culture et la faune du Rwanda.',
+      photoTitle: 'Tours photo',
+      photoText: 'Capturez les paysages à couper le souffle du Rwanda, la faune et les expériences culturelles avec un accompagnement professionnel.',
+      consultTitle: 'Conseil voyage',
+      consultText: 'Obtenez des conseils experts, des recommandations de destinations et une aide à la planification pour votre aventure rwandaise.',
+      whyTitle: 'Pourquoi choisir Visit Rwanda ?',
+      whyCard1: 'Expérience fiable',
+      whyCard1Text: 'Guidage touristique professionnel pour les visiteurs du monde entier.',
+      whyCard2: 'Beauté naturelle',
+      whyCard2Text: 'Accédez aux plus belles attractions et parcs du Rwanda.',
+      whyCard3: 'Soutien amical',
+      whyCard3Text: 'Assistance dédiée avant et pendant votre voyage.'
+    },
+    contact: {
+      heroHeading: 'Contactez-nous',
+      heroText: 'Nous serions ravis d’avoir de vos nouvelles. Contactez-nous pour des informations de voyage, des partenariats ou des questions générales sur le Rwanda.',
+      getInTouch: 'Entrer en contact',
+      address: '📍 Adresse',
+      phone: '📞 Téléphone',
+      email: '✉️ Email',
+      hours: '🕒 Heures d’ouverture',
+      addressText: 'Kigali, Rwanda',
+      phoneText: '+250 788 123 456',
+      emailText: 'info@visitrwanda.com',
+      hoursText: 'Lundi - Vendredi : 8h00 - 17h00',
+      sendMessage: 'Envoyer un message',
+      namePlaceholder: 'Nom complet',
+      emailPlaceholder: 'Adresse email',
+      subjectPlaceholder: 'Sujet',
+      messagePlaceholder: 'Votre message',
+      sendButton: 'Envoyer le message',
+      success: 'Merci ! Votre message a été reçu.'
+    },
+    destination: {
+      heroTitle: 'À propos de Tembera Urwanda',
+      heroText: 'Découvrez la beauté du Rwanda.',
+      welcomeTitle: 'Bienvenue au Rwanda',
+      welcomeText: 'Tembera Urwanda est un site touristique créé pour aider les touristes internationaux et les Rwandais à découvrir la beauté du Rwanda, le pays aux mille collines.',
+      welcomeText2: 'Des plages paisibles du lac Kivu et la faune du parc national d’Akagera à la vie citadine animée de Kigali, le Rwanda offre des expériences inoubliables pleines d’aventure, de culture et de beauté naturelle.',
+      welcomeText3: 'Notre mission est d’inspirer les gens à voyager, explorer le Rwanda et créer des souvenirs durables grâce à des destinations incroyables et des expériences uniques.',
+      button: 'Explorez le Rwanda',
+      popularTitle: 'Destinations populaires',
+      card1Title: 'Parc national des volcans',
+      card1Text: 'Vivez les gorilles de montagne et des paysages volcaniques à couper le souffle.',
+      card2Title: 'Lac Kivu',
+      card2Text: 'Détendez-vous sur des plages paisibles et profitez de vues de couchers de soleil spectaculaires.',
+      card3Title: 'Ville de Kigali',
+      card3Text: 'Explorez la capitale du Rwanda pleine de culture et de vie moderne.'
+    },
+    footer: {
+      title: 'Tembera U RWANDA',
+      description: 'Découvrez la beauté du pays aux mille collines',
+      quickLinks: 'Liens rapides',
+      home: 'Accueil',
+      about: 'À propos de nous',
+      service: 'Service',
+      contact: 'Contactez-nous',
+      destinations: 'Destination',
+      contactUs: 'Contactez-nous',
+      copy: '© 2024 Tembera URWANDA. Tous droits réservés.'
     }
   }
 }

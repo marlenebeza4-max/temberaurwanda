@@ -4,12 +4,13 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <section class="relative min-h-[85vh] bg-cover bg-center overflow-hidden">
+  <section class="relative min-h-[85vh] bg-cover bg-center overflow-hidden" style="background-image:url('../assets/image.png')">
     <video
       autoplay
       muted
       loop
       playsinline
+      poster="../assets/image.png"
       class="absolute inset-0 w-full h-full object-cover"
     >
       <source :src="`download3.mp4`" type="video/mp4" />
