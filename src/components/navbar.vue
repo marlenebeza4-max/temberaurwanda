@@ -96,6 +96,16 @@ const { t, locale, setLocale } = useI18n()
             {{ t('nav.contact') }}
           </RouterLink>
         </li>
+        <li>
+          <RouterLink to="/register" class="hover:text-yellow-300">
+            Register
+          </RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/login" class="hover:text-yellow-300">
+            Login
+          </RouterLink>
+        </li>
       </ul>
 
       <div class="flex gap-2">

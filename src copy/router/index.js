@@ -1,13 +1,12 @@
-
-import { createRouter, createWebHistory } from "vue-router";
+﻿import { createRouter, createWebHistory } from "vue-router";
 
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import Gallery from "../views/gallery.vue";
 import Services from "../views/services.vue";
 import Contact from "../views/contact.vue";
-
-
+import Login from "../views/login.vue";
+import Register from "../views/Register.vue";
 
 const routes = [
   {
@@ -34,6 +33,16 @@ const routes = [
     path: "/gallery",
     name: "gallery",
     component: Gallery,
+  },
+  {
+    path: "/login",
+    name: "login",
+    component: Login,
+  },
+  {
+    path: "/register",
+    name: "register",
+    component: Register,
   },
 ];
 

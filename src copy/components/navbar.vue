@@ -99,6 +99,12 @@
         </RouterLink>
       </li>
 
+      <li>
+        <RouterLink to="/login" class="bg-yellow-300 text-black rounded px-3 py-2 text-sm font-semibold hover:bg-yellow-200 transition-colors">
+          Login
+        </RouterLink>
+      </li>
+
     </ul>
   </nav>
 </template>
